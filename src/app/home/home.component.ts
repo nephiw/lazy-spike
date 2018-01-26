@@ -10,8 +10,7 @@ import { HomeModalComponent } from './home-modal/home-modal.component';
 export class HomeComponent {
   public bsModalRef: BsModalRef;
 
-  constructor(private modalService: BsModalService) {
-  }
+  constructor(private modalService: BsModalService) {}
 
   public openModal() {
     const initialState = {
