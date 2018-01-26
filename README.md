@@ -1,4 +1,8 @@
-# Lazy
+# Lazy Spike
+
+## Spike Plan
+
+I need to load ngx-bootstrap modals in lazy loaded modules.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
