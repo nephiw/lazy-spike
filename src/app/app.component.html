@@ -1,11 +1,12 @@
-<h1>{{ title }}</h1>
-
-<nav>
-  <a [routerLink]="['/']">Home</a>
-  <a [routerLink]="['lazy/lazyPage']">Lazy</a>
-  <a [routerLink]="['about/aboutPage']">About</a>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li><a routerLinkActive="active" [routerLink]="['/']">Home</a></li>
+      <li><a routerLinkActive="active" [routerLink]="['about/aboutPage']">About</a></li>
+      <li><a routerLinkActive="active" [routerLink]="['contact/contactPage']">Contact</a></li>
+    </ul>
+  </div>
 </nav>
-
-<h3>Current Route:</h3>
-<router-outlet></router-outlet>
-
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('lazy App', () => {
+describe('contact App', () => {
   let page: AppPage;
 
   beforeEach(() => {

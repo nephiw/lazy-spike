@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule' },
+  { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
   { path: 'about', loadChildren: './about/about.module#AboutModule' },
   { path: '**', redirectTo: '' }
 ];
